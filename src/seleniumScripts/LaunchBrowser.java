@@ -32,9 +32,6 @@ public class LaunchBrowser {
 		}
 		
 		driver.manage().window().maximize();
-		
-		
-		
 	System.out.println(driver.manage().window().getSize().getHeight());
 	System.out.println(driver.manage().window().getSize().getWidth());
 	
